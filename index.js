@@ -26,7 +26,7 @@ app.use(express.json());
 app.use("/user", userAuth);
 app.use(helmet());
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 if (app.get("env") == "production") console.log("production start");
 
